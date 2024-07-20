@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 1200px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls input, .controls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+#key, #value {
+    width: 150px;
+}
+
+button {
+    background-color: #61dafb;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.hash-map-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hash-map-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #61dafb;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.hash-map-cell .key {
+    font-weight: bold;
+}
+
+.hash-map-cell .value {
+    margin-top: 5px;
+}
+
+.hash-map-cell.empty {
+    background-color: #ccc;
+}
