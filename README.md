@@ -37,7 +37,7 @@ Upon opening the application, you will be greeted with the main interface where 
 4. **Clear Hash Map**: Click the "Clear" button to reset the hash map.
 
 ## Screenshots
-
+<img align="center" alt="coding" width="600" src="https://github.com/nrkkR/Javascript_Maze-Solver/blob/main/maze%20solver.png">
 
 ## Credits
 Created by [Rajdeep Mondal](https://www.linkedin.com/in/rajdeep-mondal-a277a9317)  
